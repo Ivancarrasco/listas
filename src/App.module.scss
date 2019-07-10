@@ -1,0 +1,38 @@
+* {
+    background: rgba(226,226,226,1);
+
+}
+.title {
+	font-size: 2rem;
+	font-weight: 900;
+	text-align: center;
+	padding: 8px 16px 8px 16px;
+}
+.container_boards {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.container_add {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 16px 48px;
+}
+
+.button_green {
+	background: green !important;
+}
+
+
+.result {
+	align-content: left;
+	padding-top: 48px;
+	text-align: left;
+	font-weight: 500;
+	font-size: 1.5rem;
+	padding: 8px 16px 8px 16px;
+}
+

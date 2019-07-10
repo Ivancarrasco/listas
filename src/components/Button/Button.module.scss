@@ -1,0 +1,44 @@
+* {
+	box-sizing: border-box;
+}
+.main {
+	display: flex;
+	justify-content: center;
+}
+.button {
+	color: white;
+	background: blue;
+	width: 50px;
+	height: 32px;
+	font-size: 1rem;
+	font-weight: 500;
+	border: none;
+	border-radius: 4px;
+	margin: 0 0 0 0;
+	cursor: pointer;
+	outline: none;
+	text-align: center;
+}
+
+.button:hover {
+	background: grey;
+	color: white;
+}
+.button_red {
+	background: red;
+}
+
+.icon {
+	margin-top: 5px;
+	width: 30px;
+	height: 20px;
+	fill: white;
+	flex: 2;
+	cursor: pointer;
+	outline: none;
+	background: blue;
+
+}
+.icon:hover {
+	fill: violet;
+}
